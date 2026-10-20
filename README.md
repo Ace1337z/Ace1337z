@@ -3,7 +3,7 @@
      ╚══════════════════════════════════════════════════════════╝ -->
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=3000&pause=1200&color=39FF14¢er=true&vCenter=true&width=600&height=60&lines=%F0%9D%93%9C1337z+%40+7h3+73rm1n4l;w31c0m3+70+m41+m3ss" alt="welcome typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=3000&pause=1200&color=39FF14&center=true&vCenter=true&width=600&height=60&lines=%F0%9D%93%9C1337z+%40+7h3+73rm1n4l;w31c0m3+70+m41+m3ss" alt="welcome typing"/>
 </h1>
 
 <p align="center">
@@ -58,7 +58,7 @@
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ace1337z&theme=radical&background=0d1117&border=39FF14&ring=39FF14&fire=39FF14&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=39FF14&sideLabels=c9d1d9&dates=6e7681" alt="streak"/>
+      <img src="https://streak-stats.demolab.com?user=Ace1337z&theme=radical&background=0d1117&border=39FF14&ring=39FF14&fire=39FF14&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=39FF14&sideLabels=c9d1d9&dates=6e7681" alt="streak"/>
     </td>
     <td align="center">
       <img src="https://github-profile-trophy.vercel.app/?username=Ace1337z&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=6&row=1" alt="trophies"/>
