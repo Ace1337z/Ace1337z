@@ -4,8 +4,8 @@
 
 **routers · LLM plumbing · trading bots**
 
-Mostly in a terminal. OpenWrt firmware for hardware I actually own, small glue
-around free model tiers, and automation I should be more careful with.
+I build OpenWrt firmware for routers I actually own, glue code for free LLM
+tiers, and trading automation I try not to leave unattended.
 
 `Shell` · `C` · `Python` · `Go` · `TypeScript`
 
