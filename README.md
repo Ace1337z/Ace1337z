@@ -1,34 +1,78 @@
-<p align="center">
-  <samp>
-    <b>Ace1337z</b>
-    <br>
-    firmware · llm plumbing · trading bots
-    <br>
-    <a href="https://github.com/Ace1337z?tab=repositories">repos</a> .
-    <a href="https://github.com/Ace1337z?tab=stars">stars</a> .
-    <a href="https://github.com/Ace1337z?tab=following">following</a>
-  </samp>
-</p>
+<div align="center">
+
+# Ace1337z
+
+**routers · LLM plumbing · trading bots**
+
+Mostly in a terminal. OpenWrt firmware for hardware I actually own, small glue
+around free model tiers, and automation I should be more careful with.
+
+`Shell` · `C` · `Python` · `Go` · `TypeScript`
+
+</div>
 
 ---
 
-Mostly working out of the terminal. Building OpenWrt router firmware, small LLM plumbing around free model tiers, and trading automation I should probably be more careful with.
+### What I'm building
 
-### Pinned
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- [`luci-theme-vantage`](https://github.com/Ace1337z/luci-theme-vantage) — LuCI theme + live dashboard for OpenWrt 25.12
-- [`nss-packages-edma`](https://github.com/Ace1337z/nss-packages-edma) — Qualcomm NSS offload feed on the qualcommax EDMA stack
-- [`gemini-web2api-go`](https://github.com/Ace1337z/gemini-web2api-go) — Gemini web → OpenAI-compatible API, single Go binary
-- [`daily_stock_analysis`](https://github.com/Ace1337z/daily_stock_analysis) — LLM-driven multi-market stock analysis, auto-pushed
-- [`penny-trader`](https://github.com/Ace1337z/penny-trader) — autonomous long-only micro-cap trading
+**[AW1000_BYTE](https://github.com/Ace1337z/AW1000_BYTE)**
+<br><sub>`Shell` · `C`</sub>
 
-### Also around
+Beginner-friendly ImmortalWrt firmware for the Arcadyan AW1000
+(`qualcommax/ipq807x`). Pre-configured — flash and it just works: WiFi, modem
+auto-dial, NSS hardware offload, working RJ11 phone port, full proxy suite.
 
-- [`openwrt-aw1000-phone`](https://github.com/Ace1337z/openwrt-aw1000-phone) — RJ11 phone port for the Arcadyan AW1000
-- [`QManager`](https://github.com/Ace1337z/QManager) — modem manager for the RM551E on OpenWrt
-- [`the-perfect-opencode`](https://github.com/Ace1337z/the-perfect-opencode) — agents, skills and commands for OpenCode
-- [`sec-analyzer-ai`](https://github.com/Ace1337z/sec-analyzer-ai) — Telegram bot watching SEC filings and insider trades
+</td>
+<td width="50%" valign="top">
 
----
+**[penny-early-warning](https://github.com/Ace1337z/penny-early-warning)**
+<br><sub>`Python`</sub>
 
+Watches every sub-$10 US stock across all sessions and alerts on Telegram while
+a move is still *building* — scores momentum quality and acceleration instead of
+raw % change.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[LOOPR](https://github.com/Ace1337z/LOOPR)**
+<br><sub>`TypeScript` · Expo · Supabase</sub>
+
+Ranked match play for racket sports. Real ELO, real database — no mock mode,
+because a fake rating is worse than no rating.
+
+</td>
+<td width="50%" valign="top">
+
+**[penny-trader](https://github.com/Ace1337z/penny-trader)**
+<br><sub>`Python`</sub>
+
+Autonomous long-only micro-cap trading system.
+
+</td>
+</tr>
+</table>
+
+### Forked and living in
+
+I maintain these upstream-tracking branches for my own hardware and workflow:
+
+[`openwrt-aw1000-phone`](https://github.com/Ace1337z/openwrt-aw1000-phone) —
+RJ11 SLIC support for the AW1000 &nbsp;·&nbsp;
+[`nss-packages-edma`](https://github.com/Ace1337z/nss-packages-edma) —
+Qualcomm NSS offload feed on the qualcommax EDMA stack &nbsp;·&nbsp;
+[`luci-theme-vantage`](https://github.com/Ace1337z/luci-theme-vantage) —
+LuCI theme + live dashboard &nbsp;·&nbsp;
+[`gemini-web2api-go`](https://github.com/Ace1337z/gemini-web2api-go) —
+Gemini web → OpenAI-compatible API
+
+<div align="center">
+<br>
 <sub>Rank 1337, by choice.</sub>
+</div>
