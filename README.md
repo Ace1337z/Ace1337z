@@ -14,7 +14,7 @@ automation I try not to leave unattended.
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/Ace1337z/LOOPR)
 [![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)](https://github.com/Ace1337z/openwrt-agh-passwall2)
 
-<a href="https://github.com/Ace1337z?tab=repositories"><img src="https://img.shields.io/badge/repos-10-0d1117?style=flat-square&logo=github&logoColor=white" alt="repos"></a>
+<a href="https://github.com/Ace1337z?tab=repositories"><img src="https://img.shields.io/badge/original%20repos-10-0d1117?style=flat-square&logo=github&logoColor=white" alt="repos"></a>
 <a href="https://t.me/bytewrt"><img src="https://img.shields.io/badge/Telegram-@bytewrt-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
 
 </div>
@@ -131,8 +131,12 @@ no mock mode       fake data is worse than no data
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Ace1337z&show_icons=true&hide_border=true&bg_color=00000000&title_color=00B5E2&icon_color=00B5E2&text_color=8b949e&include_all_commits=true&rank_icon=github" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ace1337z&layout=compact&hide_border=true&bg_color=00000000&title_color=00B5E2&text_color=8b949e&langs_count=8" alt="Top languages" />
+<img width="700" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ace1337z&theme=github_dark" alt="Profile summary" />
+
+<br>
+<br>
+
+<img width="495" src="https://streak-stats.demolab.com?user=Ace1337z&hide_border=true&background=00000000&ring=00B5E2&fire=00B5E2&currStreakNum=00B5E2&sideNums=8b949e&sideLabels=8b949e&dates=8b949e&currStreakLabel=00B5E2" alt="Contribution streak" />
 
 <br>
 
