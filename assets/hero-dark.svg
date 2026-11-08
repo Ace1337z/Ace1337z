@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="ACE1337z — OpenWrt firmware, LLM infrastructure, trading systems">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060A0F"/>
+      <stop offset="0.55" stop-color="#0B1219"/>
+      <stop offset="1" stop-color="#060A0F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00D4FF"/>
+      <stop offset="1" stop-color="#0A7CFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00D4FF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+  <ellipse cx="955" cy="70" rx="380" ry="260" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1199" height="339" fill="none" stroke="#FFFFFF" stroke-opacity="0.07"/>
+
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+    <circle cx="69" cy="61" r="3.5" fill="#00D4FF"/>
+    <text x="82" y="65" font-size="11" font-weight="600" letter-spacing="2.4" fill="#5B6C7C">BYTE.WRT / 1337</text>
+
+    <text x="64" y="176" font-size="94" font-weight="800" letter-spacing="-4.4" fill="#F4F8FB">ACE1337z</text>
+    <rect x="68" y="198" width="110" height="4" rx="2" fill="url(#accent)"/>
+
+    <text x="68" y="238" font-size="15" font-weight="500" letter-spacing="2.6" fill="#93A5B5">OPENWRT · LLM INFRASTRUCTURE · TRADING SYSTEMS</text>
+    <text x="68" y="290" font-size="11.5" font-weight="600" letter-spacing="2" fill="#5B6C7C">C · GO · PYTHON · TYPESCRIPT · SHELL</text>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="955" cy="170" r="118" fill="none" stroke="#00D4FF" stroke-opacity="0.10"/>
+    <circle cx="955" cy="170" r="158" fill="none" stroke="#00D4FF" stroke-opacity="0.05"/>
+
+    <path d="M905 148 L848 104" stroke="#2A4553" stroke-width="1.2"/>
+    <path d="M1005 148 L1042 104" stroke="#2A4553" stroke-width="1.2"/>
+    <path d="M905 192 L848 232" stroke="#2A4553" stroke-width="1.2"/>
+    <path d="M1005 192 L1042 232" stroke="#2A4553" stroke-width="1.2"/>
+
+    <rect x="748" y="82" width="132" height="44" rx="10" fill="#0B141C" stroke="#22313E"/>
+    <text x="814" y="109" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#93A5B5">AW1000</text>
+
+    <rect x="1032" y="82" width="132" height="44" rx="10" fill="#0B141C" stroke="#22313E"/>
+    <text x="1098" y="109" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#93A5B5">9router</text>
+
+    <rect x="748" y="210" width="132" height="44" rx="10" fill="#0B141C" stroke="#22313E"/>
+    <text x="814" y="237" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#93A5B5">ROTD</text>
+
+    <rect x="1032" y="210" width="132" height="44" rx="10" fill="#0B141C" stroke="#22313E"/>
+    <text x="1098" y="237" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#93A5B5">LOOPR</text>
+
+    <rect x="903" y="118" width="104" height="104" rx="22" fill="#0B141C" stroke="#00D4FF" stroke-opacity="0.55"/>
+    <text x="955" y="176" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="17" font-weight="700" letter-spacing="1.5" fill="#00D4FF">BYTE</text>
+
+    <circle cx="848" cy="104" r="3.5" fill="#00D4FF"/>
+    <circle cx="1042" cy="104" r="3.5" fill="#00D4FF"/>
+    <circle cx="848" cy="232" r="3.5" fill="#00D4FF"/>
+    <circle cx="1042" cy="232" r="3.5" fill="#00D4FF"/>
+  </g>
+</svg>

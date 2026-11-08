@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-label="openwrt-agh-passwall2 — Conflict-free DNS chain installer.">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F4F8FB"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="599" height="219" rx="14" fill="url(#g)" stroke="#D8E2EA"/>
+  <text x="30" y="36" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="2" fill="#6C8092">04</text>
+  <text x="570" y="36" text-anchor="end" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="2.2" fill="#008FC4">TOOLING</text>
+  <path d="M30 50 H570" stroke="#D8E2EA"/>
+
+  <text x="30" y="90" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="-0.6" fill="#0B1117">openwrt-agh-passwall2</text>
+  <text x="30" y="118" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#435667">Conflict-free DNS chain</text>
+  <text x="30" y="137" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#435667">installer.</text>
+  <text x="30" y="194" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="0.4" fill="#6C8092">validate · rollback</text>
+
+  <g transform="translate(438,56)">
+    <path d="M50 6 L92 22 V60 Q92 96 50 114 Q8 96 8 60 V22 Z" fill="none" stroke="#008FC4" stroke-opacity="0.55"/>
+    <path d="M32 60 l13 13 l23 -27" fill="none" stroke="#008FC4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M118 62 a22 22 0 1 0 6 14" fill="none" stroke="#A9BECA" stroke-width="1.4"/>
+    <path d="M124 50 v12 h-12" fill="none" stroke="#A9BECA" stroke-width="1.4"/>
+  </g>
+</svg>

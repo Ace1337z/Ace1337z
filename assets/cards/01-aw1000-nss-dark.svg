@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-label="AW1000_NSS_BYTE — NSS-offload OpenWrt for the Arcadyan AW1000.">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080D13"/>
+      <stop offset="1" stop-color="#0B1219"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="599" height="219" rx="14" fill="url(#g)" stroke="#1E2B38"/>
+  <text x="30" y="36" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="2" fill="#5B6C7C">01</text>
+  <text x="570" y="36" text-anchor="end" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="2.2" fill="#00D4FF">FIRMWARE</text>
+  <path d="M30 50 H570" stroke="#1E2B38"/>
+
+  <text x="30" y="90" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.6" fill="#F4F8FB">AW1000_NSS_BYTE</text>
+  <text x="30" y="118" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#93A5B5">NSS-offload OpenWrt for the</text>
+  <text x="30" y="137" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#93A5B5">Arcadyan AW1000.</text>
+  <text x="30" y="194" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="0.4" fill="#5B6C7C">IPQ807x · kernel 6.18.60</text>
+
+  <g transform="translate(392,54)">
+    <path d="M36 46 V24 M98 46 V24" stroke="#2B4A5B" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="36" cy="20" r="3.5" fill="#00D4FF"/>
+    <circle cx="98" cy="20" r="3.5" fill="#00D4FF"/>
+    <rect x="8" y="46" width="118" height="52" rx="11" fill="#0B141C" stroke="#2B4A5B" stroke-width="1.2"/>
+    <rect x="32" y="62" width="70" height="20" rx="4" fill="#00D4FF" fill-opacity="0.10" stroke="#00D4FF" stroke-opacity="0.45"/>
+    <text x="67" y="76" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9" letter-spacing="1" fill="#00D4FF">NSS</text>
+    <path d="M132 58 q26 -14 52 0" fill="none" stroke="#00D4FF" stroke-opacity="0.45"/>
+    <path d="M138 70 q20 -10 40 0" fill="none" stroke="#00D4FF" stroke-opacity="0.25"/>
+    <circle cx="158" cy="80" r="2" fill="#00D4FF" opacity="0.7"/>
+  </g>
+</svg>

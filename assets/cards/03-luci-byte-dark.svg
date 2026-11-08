@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-label="luci-app-byte — AdGuard Home + PassWall2 panel and rollback.">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080D13"/>
+      <stop offset="1" stop-color="#0B1219"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="599" height="219" rx="14" fill="url(#g)" stroke="#1E2B38"/>
+  <text x="30" y="36" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="2" fill="#5B6C7C">03</text>
+  <text x="570" y="36" text-anchor="end" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="2.2" fill="#00D4FF">TOOLING</text>
+  <path d="M30 50 H570" stroke="#1E2B38"/>
+
+  <text x="30" y="90" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.6" fill="#F4F8FB">luci-app-byte</text>
+  <text x="30" y="118" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#93A5B5">AdGuard Home + PassWall2</text>
+  <text x="30" y="137" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#93A5B5">panel and rollback.</text>
+  <text x="30" y="194" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="0.4" fill="#5B6C7C">apk · ipk</text>
+
+  <g transform="translate(360,78)" font-family="ui-monospace, Menlo, Consolas, monospace">
+    <rect x="0" y="16" width="48" height="30" rx="6" fill="#0B141C" stroke="#2B4A5B" stroke-width="1.2"/>
+    <text x="24" y="36" text-anchor="middle" font-size="10" fill="#93A5B5">:53</text>
+    <path d="M48 31 H68" stroke="#00D4FF" stroke-width="1.2"/>
+    <rect x="68" y="16" width="58" height="30" rx="6" fill="#00D4FF" fill-opacity="0.10" stroke="#00D4FF" stroke-opacity="0.45"/>
+    <text x="97" y="36" text-anchor="middle" font-size="10" fill="#00D4FF">AGH</text>
+    <path d="M126 31 H146" stroke="#00D4FF" stroke-width="1.2"/>
+    <rect x="146" y="16" width="66" height="30" rx="6" fill="#0B141C" stroke="#2B4A5B" stroke-width="1.2"/>
+    <text x="179" y="36" text-anchor="middle" font-size="10" fill="#93A5B5">:15353</text>
+    <path d="M179 46 V70" stroke="#2A4553" stroke-width="1.2"/>
+    <circle cx="179" cy="78" r="4" fill="#00D4FF" opacity="0.7"/>
+  </g>
+</svg>
