@@ -25,7 +25,7 @@
 
   <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
     <circle cx="69" cy="61" r="3.5" fill="#00D4FF"/>
-    <text x="82" y="65" font-size="11" font-weight="600" letter-spacing="2.4" fill="#5B6C7C">BYTE.WRT / 1337</text>
+    <text x="82" y="65" font-size="11" font-weight="600" letter-spacing="2.4" fill="#5B6C7C">SOFTWARE DEVELOPER / 1337</text>
 
     <text x="64" y="176" font-size="94" font-weight="800" letter-spacing="-4.4" fill="#F4F8FB">ACE1337z</text>
     <rect x="68" y="198" width="110" height="4" rx="2" fill="url(#accent)"/>
