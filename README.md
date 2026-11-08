@@ -1,144 +1,107 @@
 <div align="center">
 
-# ACE1337z
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ace1337z/Ace1337z/main/assets/banner-dark.svg">
+  <img src="https://raw.githubusercontent.com/Ace1337z/Ace1337z/main/assets/banner-light.svg" alt="ACE1337z — firmware, LLM plumbing, trading systems" width="100%">
+</picture>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=00B5E2&center=true&vCenter=true&width=720&lines=firmware+wrangler+%C2%B7+LLM+plumbing+%C2%B7+trading+systems;flashing+OpenWrt+on+hardware+I+actually+own;routing+LLM+traffic+through+a+42+MB+Go+gateway;hunting+micro-cap+runners+before+the+crowd" alt="ACE1337z" />
+<br>
 
-I build firmware for routers I own, plumbing for free LLM tiers, and trading
-automation I try not to leave unattended.
-
-[![OpenWrt](https://img.shields.io/badge/OpenWrt-00B5E2?style=flat-square&logo=openwrt&logoColor=white)](https://openwrt.org)
-[![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)](https://github.com/Ace1337z/AW1000_NSS_BYTE)
-[![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/Ace1337z/luci-app-9router)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Ace1337z/Runner-of-the-Day)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/Ace1337z/LOOPR)
-[![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)](https://github.com/Ace1337z/openwrt-agh-passwall2)
-
-<a href="https://github.com/Ace1337z?tab=repositories"><img src="https://img.shields.io/badge/original%20repos-10-0d1117?style=flat-square&logo=github&logoColor=white" alt="repos"></a>
-<a href="https://t.me/bytewrt"><img src="https://img.shields.io/badge/Telegram-@bytewrt-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
+[repositories](https://github.com/Ace1337z?tab=repositories) &nbsp;·&nbsp; [telegram](https://t.me/bytewrt) &nbsp;·&nbsp; [commits](https://github.com/Ace1337z?tab=overview)
 
 </div>
 
----
-
-### Currently shipping
+## Selected work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### [AW1000_NSS_BYTE](https://github.com/Ace1337z/AW1000_NSS_BYTE)
+### [AW1000_NSS_BYTE](https://github.com/Ace1337z/AW1000_NSS_BYTE)
 
-<sub><code>OpenWrt</code> · <code>C</code> · <code>IPQ807x</code></sub>
+<sub><code>OpenWrt</code> <code>C</code> <code>NSS</code></sub>
 
-**BYTE 1.0.7.** Custom firmware for the Arcadyan AW1000 on the `ppe-nss`
-tree. NSS Wi-Fi offload, kernel 6.18.60, working RJ11 phone, PassWall2 and
-9Router baked in. One sysupgrade image, reproducible from CI.
-
-[![release](https://img.shields.io/github/v/release/Ace1337z/AW1000_NSS_BYTE?style=flat-square&label=release&color=00B5E2)](https://github.com/Ace1337z/AW1000_NSS_BYTE/releases)
-[![last commit](https://img.shields.io/github/last-commit/Ace1337z/AW1000_NSS_BYTE?style=flat-square&label=last%20commit&color=5a6472)](https://github.com/Ace1337z/AW1000_NSS_BYTE/commits/main)
+BYTE 1.0.7 for the Arcadyan AW1000. NSS Wi-Fi offload, kernel 6.18.60, a working
+RJ11 phone, PassWall2 and 9Router inside one sysupgrade image.
 
 </td>
 <td width="50%" valign="top">
 
-#### [luci-app-9router](https://github.com/Ace1337z/luci-app-9router)
+### [luci-app-9router](https://github.com/Ace1337z/luci-app-9router)
 
-<sub><code>OpenWrt</code> · <code>Shell</code> · <code>Go</code></sub>
+<sub><code>OpenWrt</code> <code>Shell</code> <code>Go</code></sub>
 
-LuCI control plane for **9router-go**. Downloads the CGO-free static gateway,
-verifies it against `SHA256SUMS.txt`, supervises it under procd, and keeps a
-rollback copy. Built for musl, not glibc.
-
-[![last commit](https://img.shields.io/github/last-commit/Ace1337z/luci-app-9router?style=flat-square&label=last%20commit&color=5a6472)](https://github.com/Ace1337z/luci-app-9router/commits/main)
-[![packages](https://img.shields.io/badge/apk%20%2B%20ipk-ready-00B5E2?style=flat-square)](https://github.com/Ace1337z/luci-app-9router)
+LuCI control plane for 9router-go. SHA256-verified static gateway, supervised by
+procd, with a rollback copy kept on disk.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### [luci-app-byte](https://github.com/Ace1337z/luci-app-byte)
+### [luci-app-byte](https://github.com/Ace1337z/luci-app-byte)
 
-<sub><code>OpenWrt</code> · <code>Shell</code> · <code>LuCI</code></sub>
+<sub><code>OpenWrt</code> <code>LuCI</code> <code>Shell</code></sub>
 
-One page that installs, wires, inspects and **undoes** the AdGuard Home +
-PassWall2 DNS chain. Feed-managed packages, vendored installer pin, IPv4-only
-listeners by design.
-
-[![last commit](https://img.shields.io/github/last-commit/Ace1337z/luci-app-byte?style=flat-square&label=last%20commit&color=5a6472)](https://github.com/Ace1337z/luci-app-byte/commits/main)
-[![packages](https://img.shields.io/badge/apk%20%2B%20ipk-ready-00B5E2?style=flat-square)](https://github.com/Ace1337z/luci-app-byte)
+Install, wire, inspect and undo the AdGuard Home + PassWall2 DNS chain from one
+page. Feed-managed packages, no vendor tarball.
 
 </td>
 <td width="50%" valign="top">
 
-#### [openwrt-agh-passwall2](https://github.com/Ace1337z/openwrt-agh-passwall2)
+### [openwrt-agh-passwall2](https://github.com/Ace1337z/openwrt-agh-passwall2)
 
-<sub><code>OpenWrt</code> · <code>Shell</code></sub>
+<sub><code>OpenWrt</code> <code>Shell</code></sub>
 
-Conflict-free AdGuardHome + PassWall2 installer. Backs up every touched file,
-validates the YAML before dnsmasq gives up port 53, auto-rolls back if AGH stops
-answering, and reruns idempotently.
-
-[![last commit](https://img.shields.io/github/last-commit/Ace1337z/openwrt-agh-passwall2?style=flat-square&label=last%20commit&color=5a6472)](https://github.com/Ace1337z/openwrt-agh-passwall2/commits/main)
+Conflict-free AGH + PassWall2 installer. Validates the config before cutover,
+restores everything on failure, reruns without duplicating state.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### [RT-AX52_BYTE](https://github.com/Ace1337z/RT-AX52_BYTE)
+### [RT-AX52_BYTE](https://github.com/Ace1337z/RT-AX52_BYTE)
 
-<sub><code>OpenWrt</code> · <code>Shell</code> · <code>MT7981B</code></sub>
+<sub><code>OpenWrt</code> <code>MT7981B</code> <code>Actions</code></sub>
 
-**ImmortalWrt 25.12** for the ASUS RT-AX52. PassWall2 and Xray baked in,
-Footstrap UI, tuned for 256 MB RAM. Push, let Actions build, download the
-release.
-
-[![release](https://img.shields.io/github/v/release/Ace1337z/RT-AX52_BYTE?style=flat-square&label=release&color=00B5E2)](https://github.com/Ace1337z/RT-AX52_BYTE/releases)
-[![last commit](https://img.shields.io/github/last-commit/Ace1337z/RT-AX52_BYTE?style=flat-square&label=last%20commit&color=5a6472)](https://github.com/Ace1337z/RT-AX52_BYTE/commits/main)
+ImmortalWrt 25.12 for the ASUS RT-AX52. PassWall2 and Xray baked in, tuned for
+256 MB of RAM, built by CI on every push.
 
 </td>
 <td width="50%" valign="top">
 
-#### [Runner-of-the-Day](https://github.com/Ace1337z/Runner-of-the-Day)
+### [Runner-of-the-Day](https://github.com/Ace1337z/Runner-of-the-Day)
 
-<sub><code>Python</code> · <code>Telegram</code> · <code>Finviz</code></sub>
+<sub><code>Python</code> <code>Finviz</code> <code>Telegram</code></sub>
 
-Stricter successor to penny-early-warning. Ranks US micro-caps for the day's
-explosive move, fails closed on stale or conflicting data, and writes a MISS
-REPORT explaining every runner it did not flag. Decision support only.
-
-[![last commit](https://img.shields.io/github/last-commit/Ace1337z/Runner-of-the-Day?style=flat-square&label=last%20commit&color=5a6472)](https://github.com/Ace1337z/Runner-of-the-Day/commits/main)
+Micro-cap runner detector. Ranks before it alerts, fails closed on bad data,
+writes a miss report for every runner it did not flag, and places no orders.
 
 </td>
 </tr>
 </table>
 
-### Also in the shop
+## Also building
 
-- **[LOOPR](https://github.com/Ace1337z/LOOPR)** — ranked match play for racket sports. Expo + Supabase, real ELO, no mock mode.
-- **[AW1000_BYTE](https://github.com/Ace1337z/AW1000_BYTE)** — retired ImmortalWrt 25.12 build. The `repo` branch lives on as the signed opkg feed.
-- **[penny-early-warning](https://github.com/Ace1337z/penny-early-warning)** — archived first pass at pre-move micro-cap alerts.
+**[LOOPR](https://github.com/Ace1337z/LOOPR)** — Expo + Supabase match play with real ELO, no mock mode.  
+**[AW1000_BYTE](https://github.com/Ace1337z/AW1000_BYTE)** — retired firmware; the repo branch lives on as a signed opkg feed.  
+**[penny-early-warning](https://github.com/Ace1337z/penny-early-warning)** — archived first pass at pre-move micro-cap alerts.
 
-### How I build
+## Toolchain
 
-```text
-fail closed        missing data is never a pass
-reproducible       pinned trees, CI builds, signed feeds
-undo included      every installer ships a rollback path
-no mock mode       fake data is worse than no data
-```
+<code>OpenWrt</code> <code>C</code> <code>Go</code> <code>Python</code> <code>TypeScript</code> <code>Shell</code> <code>Supabase</code> <code>Expo</code> <code>GitHub Actions</code>
+
+## Activity
 
 <div align="center">
 
-<img width="700" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ace1337z&theme=github_dark" alt="Profile summary" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ace1337z&theme=github_dark">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ace1337z&theme=default" alt="Contribution summary" width="700">
+</picture>
 
-<br>
-<br>
-
-<img width="495" src="https://streak-stats.demolab.com?user=Ace1337z&hide_border=true&background=00000000&ring=00B5E2&fire=00B5E2&currStreakNum=00B5E2&sideNums=8b949e&sideLabels=8b949e&dates=8b949e&currStreakLabel=00B5E2" alt="Contribution streak" />
-
-<br>
+<br><br>
 
 <sub>Rank 1337, by choice.</sub>
 
