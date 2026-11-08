@@ -4,7 +4,7 @@
 
 ## Projects
 
-| Project | What it is |
+| Project | Description |
 |:--|:--|
 | **[AW1000_NSS_BYTE](https://github.com/Ace1337z/AW1000_NSS_BYTE)** | NSS-offload OpenWrt for the Arcadyan AW1000. Kernel 6.18.60. |
 | **[RT-AX52_BYTE](https://github.com/Ace1337z/RT-AX52_BYTE)** | ImmortalWrt 25.12 for the ASUS RT-AX52. PassWall2 and Xray. |
